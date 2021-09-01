@@ -1,0 +1,13 @@
+server:
+  port: 8081
+
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 5000
+        readTimeout: 5000
+        loggerLevel: basic
+
+ygopro:
+  url: https://db.ygoprodeck.com/api/v7/cardinfo.php
